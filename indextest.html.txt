@@ -38,7 +38,7 @@
 <body>
     <h1>Witamy w PULS Factory Portal</h1>
     <p>Kliknij poniżej, aby przejść do portalu SharePoint. Będziesz automatycznie poproszony o zalogowanie się kontem firmowym.</p>
-    <a class="button" href="https://nestle.sharepoint.com/:u:/t/PULS_Fabryky/IQBquGat-WUCTJ8l277wC9zxAVAhGyyqePrkHZck7WA492Y?e=E5gThC" target="_blank">
+    <a class="button" href="https://nestle.sharepoint.com/teams/PULS_Fabryky/Shared%20Documents/PulsFabryky/index.html" target="_blank">
         Otwórz portal
     </a>
 </body>
