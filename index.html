@@ -2,29 +2,35 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PULS Factory</title>
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <meta http-equiv="refresh" content="2200">
-    <!-- Linki do CSS (zostawiamy tutaj, żeby strona nie "skakała" przy ładowaniu) -->
+
     <link rel="stylesheet" href="https://nestle.sharepoint.com/teams/PULS_Fabryky/Shared%20Documents/PulsFabryky/buttons.css">
     <link rel="stylesheet" href="https://nestle.sharepoint.com/teams/PULS_Fabryky/Shared%20Documents/PulsFabryky/sidebar.css">
     <link rel="stylesheet" href="https://nestle.sharepoint.com/teams/PULS_Fabryky/Shared%20Documents/PulsFabryky/index.css">
-    <link rel="icon" href="https://nestle.sharepoint.com/teams/PULS_Fabryky/Shared%20Documents/PulsFabryky/assets/icons/PF.jpg" type="image/x-icon">
-<style>
-        #error-overlay {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: white; display: flex; align-items: center; justify-content: center;
-            z-index: 9999; font-family: Arial, sans-serif;
-        }
-        #error-overlay h1 { font-size: 6vw; color: red; text-align: center; }
-    </style>
+
+    <link rel="icon" href="https://nestle.sharepoint.com/teams/PULS_Fabryky/Shared%20Documents/PulsFabryky/assets/icons/PF.jpg">
 </head>
+
 <body>
-    <div id="error-overlay">
-        <h1>TYLKO WEWNĄTRZ NESTLE</h1>
+
+<noscript>
+    <div style="
+        position:fixed;
+        top:0;left:0;
+        width:100%;
+        height:100%;
+        background:white;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:28px;
+        z-index:9999;
+    ">
+        Ta strona wymaga JavaScript (Nestlé environment).
     </div>
-    <div id="app-root"></div>
-    <script src="https://nestle.sharepoint.com/teams/PULS_Fabryky/Shared%20Documents/PulsFabryky/strona.js"></script>
+</noscript>
+
+<script src="https://nestle.sharepoint.com/teams/PULS_Fabryky/Shared%20Documents/PulsFabryky/strona.js"></script>
+
 </body>
 </html>
