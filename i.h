@@ -24,6 +24,6 @@
         <h1>TYLKO WEWNĄTRZ NESTLE</h1>
     </div>
     <div id="app-root"></div>
-    <script src="script.js"></script>
+    <script src="https://nestle.sharepoint.com/teams/PULS_Fabryky/Shared%20Documents/PulsFabryky/strona.js"></script>
 </body>
 </html>
