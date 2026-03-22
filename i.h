@@ -3,43 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PULS Factory Portal</title>
+    <title>PULS Factory</title>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="refresh" content="2200">
+    <link rel="stylesheet" href="https://nestle.sharepoint.com">
+    <link rel="stylesheet" href="https://nestle.sharepoint.com">
+    <link rel="stylesheet" href="https://nestle.sharepoint.com">
+    <link rel="icon" href="https://nestle.sharepoint.com" type="image/x-icon">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 100px;
-            background-color: #f4f4f4;
+        #error-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: white; display: flex; align-items: center; justify-content: center;
+            z-index: 9999; font-family: Arial, sans-serif;
         }
-        h1 {
-            color: #1b5fa3;
-        }
-        a.button {
-            display: inline-block;
-            margin-top: 40px;
-            padding: 20px 40px;
-            font-size: 24px;
-            color: white;
-            background-color: #1b5fa3;
-            border-radius: 12px;
-            text-decoration: none;
-            transition: background-color 0.2s;
-        }
-        a.button:hover {
-            background-color: #155080;
-        }
-        p {
-            margin-top: 20px;
-            font-size: 16px;
-            color: #333;
-        }
+        #error-overlay h1 { font-size: 6vw; color: red; text-align: center; }
     </style>
 </head>
 <body>
-    <h1>Witamy w PULS Factory Portal</h1>
-    <p>Kliknij poniżej, aby przejść do portalu SharePoint. Będziesz automatycznie poproszony o zalogowanie się kontem firmowym.</p>
-    <a class="button" href="https://nestle.sharepoint.com/teams/PULS_Fabryky/Shared%20Documents/PulsFabryky/index.html" target="_blank">
-        Otwórz portal
-    </a>
+    <div id="error-overlay">
+        <h1>TYLKO WEWNĄTRZ NESTLE</h1>
+    </div>
+    <div id="app-root"></div>
+    <script src="script.js"></script>
 </body>
 </html>
